@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ambrane/register_screen.dart';
+import 'package:ambrane/splash_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Ambrane',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         useMaterial3: true,
       ),
       // Initial Screen
-      home: RegisterScreen(),
+      home: SplashScreen(),
     );
   }
 }
